@@ -1,4 +1,4 @@
 def call(Map config = [:]) {
     sh "echo Hey Hello ${config.name}. Today is ${config.dayOfWeek}."
-    sh "echo Hey Hello ${config.time}.  Today is ${config.todaydate}."
+    sh "echo Hey Hello ${config.name} timeis ${config.time}.  Today is ${config.todaydate}."
 }
