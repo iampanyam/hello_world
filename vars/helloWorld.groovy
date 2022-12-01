@@ -8,8 +8,5 @@ class Example
  int X=6;
  // Defining a variable with the underscore in it's name
  def _Name="Joe";
- println(x);
- println(X);
- println(_Name);
  }
 }
