@@ -1,4 +1,10 @@
-def call(Map config = [:]) {
-    sh "echo Hey Hello ${config.name}. Today is ${config.dayOfWeek}."
-    sh "echo Hey Hello ${config.name} time is ${config.time}.  Today is ${config.todaydate}."
+class Example
+{
+ static void main(String[] args)
+ {
+ // Defining a variable in lowercase
+ int x=5;
+ // Defining a variable in uppercase
+ int X=6;
+ }
 }
